@@ -1,0 +1,63 @@
+.header {
+    margin: 60px auto;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30pt;
+    font-weight: bold;
+    color: #858688
+}
+
+.purple {
+    color: #5b4295;
+}
+
+.header-left {
+
+}
+
+.header-right {
+    margin-top: -10px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16pt;
+    /* color: #454545; */
+    color: #959595;
+}
+
+.header-nav-item {
+}
+
+.breadcrumbs {
+    font-family: 'Titillium Web', sans-serif;
+    color: #959595;
+    font-size: 14pt;
+    margin-top: 10px;
+}
+
+.crumb {
+    
+}
+
+.crumb-active {
+    font-weight: bold;
+    border-bottom: 1px solid #959595;
+}
+
+.crumbs-slash {
+    margin: 0px 10px;
+}
