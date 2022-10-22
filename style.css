@@ -5,6 +5,8 @@
 
 @import "styles/header.css";
 
+@import "styles/footer.css";
+
 a {
     color: inherit;
     text-decoration: none;

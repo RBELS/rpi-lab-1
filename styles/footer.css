@@ -1,0 +1,59 @@
+.footer { 
+    padding-right: 400px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #5c5c5c;
+    width: 80%;
+}
+
+.footer-nav {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+.footer-nav-right {
+    text-align: right;
+    direction: rtl;
+    float: left;
+    display: flex;
+}
+
+.footer-nav-left {
+    margin-left: 20px;
+    line-height: 12px;  
+}
+
+.footer-nav-item {
+    font-weight: bold;      
+}
+
+.footer-list-header {
+    font-size: large;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.footer-container {
+    border-top: 1px solid #b9b9b9;
+    border-right: 1px solid #b9b9b9;
+}
+
+.footer-helpers {
+    direction: rtl; 
+    padding-right: 20px;
+    margin-bottom: 100px;
+}
+
+.footer-legal {
+    margin-right: 100px;
+}
+
+.footer-company {
+    margin-right: 150px; 
+    border-right: 1px solid #b9b9b9;
+}
+
+.footer-last {
+    margin: 100px 200px;
+}
