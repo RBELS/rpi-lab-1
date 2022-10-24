@@ -1,15 +1,16 @@
 .footer { 
-    padding-right: 400px;
     font-family: 'Titillium Web', sans-serif;
     color: #5c5c5c;
-    width: 80%;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
 }
 
 .footer-nav {
     display: flex;
     font-size: 14px;
     justify-content: space-between;
-    margin-left: 200px;
+    width: 86%;
 }
 
 .footer-nav-right {
@@ -37,12 +38,20 @@
 .footer-container {
     border-top: 1px solid #b9b9b9;
     border-right: 1px solid #b9b9b9;
+    position: relative;
+    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .footer-helpers {
-    direction: rtl; 
+    display: flex;
+    flex-direction: row-reverse; 
     padding-right: 20px;
     margin-bottom: 100px;
+    flex-wrap: wrap;
+    width: 1200px;
 }
 
 .footer-legal {
@@ -50,10 +59,14 @@
 }
 
 .footer-company {
-    margin-right: 150px; 
+    margin-right: 500px;
     border-right: 1px solid #b9b9b9;
+    position: absolute;
+    height: 350px;
 }
 
 .footer-last {
-    margin: 100px 200px;
+    margin: 100px 200px 10px;
+    box-sizing: border-box;
+    font-size: 12px;
 }
