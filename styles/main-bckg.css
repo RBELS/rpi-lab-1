@@ -1,0 +1,58 @@
+.mountain-bckg {
+    position: relative;
+    height: 600px;
+    background-image: url('../static/bckg.png');
+    background-position: 0px -373px;
+    filter: saturate(215%) contrast(120%) brightness(120%) sepia(70%); /*????*/
+
+}
+
+.mountain-bckg-filter {
+    position: absolute;
+    width: 100vw;
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1.0) 68%);
+    z-index: 2;
+    height: 600px;
+}
+
+.bckg-data {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* 60 pt  36 pt */
+.bckg-typings {
+    color: #636363;
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.typing-big {
+    font-size: 45pt;
+    font-weight: bold; /*need less bolder*/
+    margin: 0px;
+}
+
+.typing-small {
+    margin: 0px;
+    margin-top: -6px;
+    font-size: 27pt;
+}
+
+.typing-red {
+    color: #fc444a;
+}
+
+.bckg-buttons {
+    margin-top: 50px;
+}
