@@ -1,0 +1,195 @@
+
+
+.PhysicalSecurity {
+    font-family: "Titilium-Web", sans-serif;
+    padding: 0 40px 0 50px;
+    max-width: 634px;
+    margin: 0vw auto;
+    text-align: right;
+    position: relative;
+    top: 0.4vh;
+    right: 6.05%;
+    border-right: 1px solid #bfbfbf;
+}
+
+.PhysicalSecurity headerPS {
+    color: #535353;
+    font-size: 60px;
+    font-weight: 100;
+    letter-spacing: 0.4px;
+    word-spacing: 2px;
+}
+
+.PhysicalSecurity p {
+    color: #959393;
+    font-size: 22px;
+    position: relative;
+    right: 3px;
+    word-spacing: 0.7px;
+    top: 2px;
+    line-height: 22px;
+}
+
+.PhysicalSecurity span {
+    color: red;
+    font-weight: 600;
+}
+
+.PhysSecLeft {
+    display: flex;
+    flex-wrap: wrap;
+    width: 751px;
+    height: 250px;
+    padding-left: 450px;
+
+    margin-right: 300px;
+    border-bottom: 1px solid #bfbfbf;
+    border-length: 10px;
+    
+  }
+  .PhysSecLeftRow {
+    display: flex;
+    width: 838px;
+  }
+
+.aboutBlock {
+    position: relative;
+    z-index: 1;
+    bottom: 31px;
+    left: 974px;
+    width: 334px;
+    height: 62px;
+    font-family: inherit;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    color: #676767;
+    background-color: #fff;
+    border: 1px solid #b9b9b9;
+    border-radius: 50px;
+  }
+  
+  .aboutBlock a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+  }
+  
+  .aboutBlock:hover {
+    bottom: 32px;
+    left: 973px;
+    width: 336px;
+    height: 64px;
+    font-size: 17px;
+    box-shadow: 0 0 10px 0 #b9b9b9;
+    transition: 0.02s;
+  }
+  .aboutBlock:active {
+    bottom: 31px;
+    left: 974px;
+    width: 334px;
+    height: 62px;
+    font-size: 16px;
+    box-shadow: 0 0 10px 0 #b9b9b9, inset 0 0 3px 0 #b9b9b9;;
+  }
+
+  .journal-list {
+    margin: 5px 0 0 35px;
+    width: 49vw;
+}
+
+.journals-container {
+    display: flex;
+}
+
+.reviewSlider {
+    height: 160px;
+    position: relative;
+    left: 21.7vw;
+    top: 6.3vh;
+    width: 570px;
+}
+
+.underTexture {
+    position: absolute;
+    top: 1549px;
+    overflow: hidden;
+    z-index: 1;
+    width: 1800px;
+    height: 1432px;
+  }
+  
+  .gradientTexture {
+    position: absolute;
+    top: -239px;
+    left: -106px;
+    z-index: 0;
+    width: 1500px;
+    height: 2500px;
+    background: linear-gradient(110deg, #efefef, #f7f7f7 20%, #fff 50%, #fff);
+    transform: rotate(83.6deg);
+  }
+  
+  .devices {
+    position: relative;
+    bottom: 172px;
+    z-index: 2;
+    height: 690px;
+    margin-left: 400px;
+    padding-top: 200px;
+    background: url('../assets/devices.png') 552px 10px no-repeat;
+  }
+  
+  .devicesText {
+    font-family: "Titilium-Web", sans-serif;
+    width: 440px;
+    height: 214px;
+    margin-top: 85px;
+    margin-left: 267px;
+    text-align: right;
+  }
+  
+  .devicesText devicesHeader {
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 0.2px;
+    color: #535353;
+  }
+  
+  .evicesText p {
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    color: #959393;
+  }
+  
+  .devicesBtn {
+    width: 180px;
+    height: 55px;
+    margin-top: 27px;
+    border: none;
+    border-radius: 5px;
+  }
+  .devicesBtn:hover {
+    box-shadow: 0 0 10px 0 black;
+  }
+  .devicesBtn:active {
+    box-shadow: 0 0 15px 0px black;
+  }
+  
+  .devicesBtn a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .app-store {
+    margin-right: 9px;
+    background: url('../assets/app-store.png');
+  }
+  
+  .play-market {
+    background: url('../assets/play-market.png');
+  }
+  
