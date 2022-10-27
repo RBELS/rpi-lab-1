@@ -114,7 +114,7 @@
     position: absolute;
     top: 1549px;
     overflow: hidden;
-    z-index: 1;
+    z-index: -1;
     width: 1800px;
     height: 1432px;
   }
