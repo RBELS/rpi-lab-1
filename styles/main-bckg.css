@@ -55,4 +55,34 @@
 
 .bckg-buttons {
     margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 470px;
+}
+
+.bt-icon {
+    font-size: 30px;
+}
+
+.ic-login {
+    margin-right: 5px;
+    color: #582c7e;
+}
+
+.aside-btns {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 110px;
+    width: fit-content;
+    height: fit-content;
+    right: 30px;
+}
+
+.aside-btns > i {
+    font-size: 28px;
+    padding: 10px;
+    color: #676766;
 }

@@ -21,6 +21,10 @@
 
 .flat-color {
     background-color: rgb(78, 47, 94);
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+    /* border-radius: 50%; */
 }
 
 .wide {

@@ -7,6 +7,8 @@
 
 @import "styles/main-bckg.css";
 
+@import "styles/main-text.css";
+
 a {
     color: inherit;
     text-decoration: none;
