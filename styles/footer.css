@@ -6,6 +6,11 @@
     flex-wrap: wrap;
 }
 
+.footer a :hover {
+    text-shadow: 0 0 20px gray;    
+}
+
+
 .footer-nav {
     display: flex;
     font-size: 14px;
@@ -21,12 +26,24 @@
 }
 
 .footer-nav-left {
-    margin-left: 20px;
     line-height: 12px;  
+    border-left: 1px solid #b9b9b9; 
+}
+
+.footer-left-list {
+    list-style-type: none;
+}
+
+.footer-left-list li {
+    line-height: 2;
+}
+
+.footer-left-list li :last-child {
+    font-weight: bold;    
 }
 
 .footer-nav-item {
-    font-weight: bold;      
+    border-bottom: 2px solid #dddddd;      
 }
 
 .footer-list-header {
@@ -70,3 +87,16 @@
     box-sizing: border-box;
     font-size: 12px;
 }
+
+.footer-last-list {
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+.footer-last-list li + li a span::before {
+    content: "/";
+    margin: auto 12px;
+}
+
+
