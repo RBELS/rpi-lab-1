@@ -1,0 +1,72 @@
+.footer { 
+    font-family: 'Titillium Web', sans-serif;
+    color: #5c5c5c;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.footer-nav {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    width: 86%;
+}
+
+.footer-nav-right {
+    text-align: right;
+    direction: rtl;
+    float: left;
+    display: flex;
+}
+
+.footer-nav-left {
+    margin-left: 20px;
+    line-height: 12px;  
+}
+
+.footer-nav-item {
+    font-weight: bold;      
+}
+
+.footer-list-header {
+    font-size: large;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.footer-container {
+    border-top: 1px solid #b9b9b9;
+    border-right: 1px solid #b9b9b9;
+    position: relative;
+    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.footer-helpers {
+    display: flex;
+    flex-direction: row-reverse; 
+    padding-right: 20px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+.footer-legal {
+    margin-right: 100px;
+}
+
+.footer-company {
+    margin-right: 500px;
+    border-right: 1px solid #b9b9b9;
+    position: absolute;
+    height: 350px;
+}
+
+.footer-last {
+    margin: 100px 200px 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+}

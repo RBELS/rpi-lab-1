@@ -1,7 +1,7 @@
 .mountain-bckg {
     position: relative;
     height: 600px;
-    background-image: url('../static/bckg.png');
+    background-image: url('../assets/bckg.png');
     background-position: 0px -373px;
     filter: saturate(215%) contrast(120%) brightness(120%) sepia(70%); /*????*/
 
