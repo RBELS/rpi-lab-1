@@ -7,7 +7,8 @@
 
 .logo {
     font-family: 'Titillium Web', sans-serif;
-    font-size: 30pt;
+    /* font-size: 30pt; */
+    font-size: 22.5pt;
     font-weight: bold;
     color: #858688
 }
@@ -22,7 +23,7 @@
 
 .header-right {
     margin-top: -10px;
-    width: 60%;
+    width: 65%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +35,8 @@
     justify-content: space-between;
     align-items: center;
     font-family: 'Titillium Web', sans-serif;
-    font-size: 16pt;
+    /* font-size: 16pt; */
+    font-size: 12pt;
     /* color: #454545; */
     color: #959595;
 }
@@ -45,7 +47,8 @@
 .breadcrumbs {
     font-family: 'Titillium Web', sans-serif;
     color: #959595;
-    font-size: 14pt;
+    /* font-size: 14pt; */
+    font-size: 10.5pt;
     margin-top: 10px;
 }
 

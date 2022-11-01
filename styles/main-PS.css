@@ -1,15 +1,15 @@
 
 
 .PhysicalSecurity {
-  font-family: "Titilium-Web", sans-serif;
-  padding: 0 40px 0 50px;
-  max-width: 634px;
-  margin: 0vw auto;
-  text-align: right;
-  position: relative;
-  top: 0.4vh;
-  right: 6.05%;
-  border-right: 1px solid #bfbfbf;
+    font-family: "Titilium-Web", sans-serif;
+    padding: 0 40px 0 50px;
+    max-width: 634px;
+    margin: 0vw auto;
+    text-align: right;
+    position: relative;
+    top: 0.4vh;
+    right: 6.05%;
+    /* border-right: 1px solid #bfbfbf; */
 }
 
 .PhysicalSecurity headerPS {
