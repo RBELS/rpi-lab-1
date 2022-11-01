@@ -11,6 +11,10 @@
     cursor: pointer;
 }
 
+.button:not(.login-bt):hover {
+    background-image: linear-gradient(90deg, #35bbe0 30%, #5e7bea);
+}
+
 .angled-image-grad {
     background-image: linear-gradient(-30deg, rgb(81, 95, 194), rgb(70, 27, 107));
 }

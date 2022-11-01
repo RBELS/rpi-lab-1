@@ -3,6 +3,8 @@
     display: flex;
     justify-content: space-between;
     margin: 100px 230px;
+    max-height: 200px;
+    /* position: relative; */
 }
 
 .main-text-el {
@@ -67,6 +69,19 @@
 
 .main-text-pos {
     height: 220px;
-    top: 800px;
-    left: 658px;
+    position: relative;
+    top: -275px;
+    left: calc(-1*((100vw - 300% - 460px)/4.0));
+}
+
+.main-text-center-el > .main-text-top {
+    /* border-left: 1px solid #b9b9b9; */
+}
+
+.phys-sec-pos {
+    height: 510px;
+    position: relative;
+    /* left: -30px; */
+    left: calc((100vw - 300% - 460px)/(-4));
+    top: -176px;
 }
