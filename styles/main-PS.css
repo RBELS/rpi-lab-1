@@ -1,7 +1,7 @@
 
 
 .PhysicalSecurity {
-  font-family: "Titilium-Web", sans-serif;
+  font-family: "Titillium Web", sans-serif;
   padding: 0 40px 0 50px;
   max-width: 634px;
   margin: 0vw auto;
@@ -251,7 +251,7 @@ background: url('../assets/devices.png') 552px 10px no-repeat;
 }
 
 .devicesText {
-font-family: "Titilium-Web", sans-serif;
+font-family: "Titillium Web", sans-serif;
 width: 440px;
 height: 214px;
 margin-top: 85px;
@@ -304,7 +304,7 @@ background: url('../assets/play-market.png');
 }
 
 .payment {
-font-family: "Titilium-Web", sans-serif;
+font-family: "Titillium Web", sans-serif;
 position: relative;
 padding-left: 400px;
 z-index: 1;
