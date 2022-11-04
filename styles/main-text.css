@@ -28,19 +28,16 @@
 .main-text-top-big {
     /*30pt*/
     font-size: 22.5pt;
-    font-family: 'Titillium Web', sans-serif;
     color: #555555;
 }
 
 .main-text-top-small {
     /*18pt*/
     font-size: 13.5pt;
-    font-family: 'Titillium Web', sans-serif;
     color: #a3a1a1;
 }
 
 .main-text-par {
-    font-family: 'Titillium Web', sans-serif;
     font-size: 11pt;
     word-wrap: break-word;
     margin-top: 25px;

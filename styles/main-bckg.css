@@ -30,7 +30,6 @@
 /* 60 pt  36 pt */
 .bckg-typings {
     color: #636363;
-    font-family: 'Titillium Web', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;

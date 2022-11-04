@@ -1,7 +1,6 @@
 
 
 .PhysicalSecurity {
-  font-family: "Titillium Web", sans-serif;
   padding: 0 40px 0 50px;
   max-width: 634px;
   margin: 0vw auto;
@@ -44,7 +43,6 @@ padding-left: 450px;
 
 margin-right: 300px;
 border-bottom: 1px solid #bfbfbf;
-border-length: 10px;
 
 }
 .PhysSecLeftRow {
@@ -164,6 +162,7 @@ display: flex;
 }
 
 .slider {
+  font-family: MalagaOTCE;
   height: inherit;
   width: 533px;
   position: absolute;
@@ -191,7 +190,7 @@ display: flex;
 }
 
 .slides>p {
-  font-family: Malaga;
+  
   color: #101010;
   font-size: 1.55rem;
   word-spacing: -0.77px;
@@ -199,7 +198,6 @@ display: flex;
 }
 
 .slides>headerAuthor {
-  font-family: Malaga;
   color: #727272;
   position: relative;
   top: 10px;
@@ -251,7 +249,6 @@ background: url('../assets/devices.png') 552px 10px no-repeat;
 }
 
 .devicesText {
-font-family: "Titillium Web", sans-serif;
 width: 440px;
 height: 214px;
 margin-top: 85px;
@@ -304,11 +301,9 @@ background: url('../assets/play-market.png');
 }
 
 .payment {
-font-family: "Titillium Web", sans-serif;
 position: relative;
-padding-left: 400px;
+margin-left: 400px;
 z-index: 1;
-height: 327px;
 border-top: 1px solid #b9b9b9;
 }
 
@@ -319,8 +314,7 @@ flex-direction: column;
 justify-content: flex-start;
 width: 670px;
 height: 250px;
-margin-top: 64px;
-margin-left: 173px;
+margin: 64px auto 64px 173px;
 }
 
 .paymentTexture headerPayment {
@@ -335,80 +329,24 @@ color: #535353;
 width: 100%;
 
 margin-top: -0px;
+margin-bottom: 50px;
 font-size: 28px;
 letter-spacing: 0.2px;
 color: #7c7c7c;
 }
 
-.paymentBttsTexture {
-margin-top: 25px;
-padding-left: 46px;
+.buttonPaidPlan {
+  font-size: 14pt;
+  margin: auto 50px auto 66px;
 }
 
-.paymentBtts {
-height: 56px;
-font-family: inherit;
-font-weight: 700;
-font-size: 18px;
-letter-spacing: 0.3px;
-color: #fff;
-border-radius: 50px;
-border: none;
+.buttonDonate {
+  font-size: 14pt;
 }
 
-.upgradeVersionBtn {
-width: 246px;
-margin-left: 50px;
-background: linear-gradient(90deg, #646c92, #63668e 25%, #625785 50%, #614075 75%, #5f2e69);
-box-shadow: 0 2px 4px 1px #666d9f, 0 10px 12px 2px #8a9bc2;
-}
-.upgradeVersionBtn:hover {
-width: 248px;
-height: 58px;
-margin-left: 49px;
-margin-right: -1px;
-margin-top: -1px;
-box-shadow: 0 2px 4px 1px #666d9f, 0 10px 12px 2px #8a9bc2, 0 0 10px 0 #614075;
-}
-.upgradeVersionBtn:active {
-width: 246px;
-height: 56px;
-margin-left: 50px;
-margin-right: 0;
-margin-top: 0;
-text-shadow: 0 0 20px #8a9bc2;
-}
-
-.upgradeVersionBtn i {
-display: inline-block;
-margin-right: 10px;
-margin-bottom: 11px;
-font-size: 15px;
-}
-
-.donateBtn {
-width: 167px;
-margin-left: 46px;
-background: linear-gradient(140deg, #35bce0, #40abe3 25%, #4a9be5 50%, #5b80e9 75%, #5e7bea);
-box-shadow: 0 2px 4px 1px #55a1a9, 0 10px 12px 2px #91dad4;
-}
-
-.donateBtn:hover {
-width: 169px;
-height: 58px;
-margin-top: -1px;
-margin-left: 45px;
-box-shadow: 0 2px 4px 1px #55a1a9, 0 10px 12px 2px #91dad4, 0 0 10px 2px #91dad4;
-}
-.donateBtn:active {
-width: 167px;
-height: 56px;
-margin-top: 0;
-margin-left: 46px;
-text-shadow: 0 0 20px #91dad4;
-}
-.donateBtn i {
-display: inline-block;
-margin-right: 8px;
-margin-bottom: 11px;
+.paymentTexture i {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 11px;
+  font-size: 15px;
 }
