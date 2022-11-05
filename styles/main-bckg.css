@@ -61,6 +61,15 @@
     width: 470px;
 }
 
+.bckg-buttons-shadow {
+    top: -40px;
+    position: relative;
+    z-index: -1;
+    width: 660px;
+    height: 40px;
+    background-image: radial-gradient(farthest-side at 50% 0px, rgba(0, 0, 255, 0.6), rgba(255, 255, 255, 0.0));
+}
+
 .bt-icon {
     font-size: 30px;
 }
